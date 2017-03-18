@@ -7,5 +7,5 @@ class ContactMailer < ActionMailer::Base
     @body = body
     
     mail(from: email, subject: 'Contact Form Message')
-  end
+  end 
 end
